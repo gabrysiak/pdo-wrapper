@@ -6,4 +6,5 @@
   
   Example Usage:
     CONNECT:
-    $db = new DB("mysql:host=localhost;dbname=db", "dbuser", "dbpass");
+    ```PHP
+$db = new DB("mysql:host=localhost;dbname=db", "dbuser", "dbpass");
