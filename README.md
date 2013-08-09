@@ -8,3 +8,4 @@ Example Usage:
 CONNECT:
 ```php
 $db = new DB("mysql:host=localhost;dbname=db", "dbuser", "dbpass");
+```
