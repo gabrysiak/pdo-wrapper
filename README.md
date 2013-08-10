@@ -17,4 +17,12 @@ foreach($result as $row) {
     echo $row['foo'];
 }
 ```
+PREPARED SELECT:
+```php
+$foo = "bar";
+$bind = array(
+  ":name"	=>	"$foo"
+);
+$results = $db->select("mytable", "name = :name", $bind, 'first_name, last_name');
+```
 
